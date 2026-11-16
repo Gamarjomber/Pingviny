@@ -1,0 +1,29 @@
+# Секрети
+.env
+.env.*
+!.env.example
+
+# Системні файли
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Редактори
+.vscode/
+.idea/
+*.swp
+
+# Локальні налаштування Claude (особисті для кожного)
+.claude/settings.local.json
+
+# Залежності та збірки
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Логи
+*.log
